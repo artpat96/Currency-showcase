@@ -123,6 +123,6 @@ SELECT ct.waluta, ROUND(MAX(w.cena)-MIN(w.cena),4) AS amplituda
 FROM currency_type ct
 JOIN waluty w ON ct.currency_id = w.currency_id
 GROUP BY w.currency_id
-ORDER BY ROUND(MAX(w.cena)-MIN(w.cena),4) DESC
+ORDER BY amplituda DESC
 /*wyciągnięcie czwartej i piątej nawiększej wartości*/
 LIMIT 2 OFFSET 3;
