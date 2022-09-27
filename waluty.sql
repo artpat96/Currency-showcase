@@ -114,11 +114,13 @@ SELECT w.czas, ct.waluta, w.cena
 FROM currency_type ct
 JOIN waluty w ON ct.currency_id = w.currency_id;
 
+/*średnie notowanie każdej waluty*/
 SELECT ct.waluta, ROUND(AVG(w.cena),4) AS średnia_cena
 FROM currency_type ct
 JOIN waluty w ON ct.currency_id = w.currency_id
 GROUP BY w.currency_id;
 
+/*skok pomiędzy maksymalną, a minimalną wartością*/
 SELECT ct.waluta, ROUND(MAX(w.cena)-MIN(w.cena),4) AS amplituda 
 FROM currency_type ct
 JOIN waluty w ON ct.currency_id = w.currency_id
@@ -126,3 +128,9 @@ GROUP BY w.currency_id
 ORDER BY amplituda DESC
 /*wyciągnięcie czwartej i piątej nawiększej wartości*/
 LIMIT 2 OFFSET 3;
+
+/*tylko najnowsze notowania*/
+SELECT w.czas, ct.waluta, w.cena
+FROM currency_type ct
+JOIN waluty w ON ct.currency_id = w.currency_id
+WHERE w.czas = "2022-09-07";
