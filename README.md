@@ -1,4 +1,4 @@
-# Currency-showcase PL - opis
+# Currency_showcase PL - opis
 Tym projektem chciałem pokazać, że nawet mając niewielki zbiór danych (jedna tabela), można wyciągnąć z niego dużo informacji.
 Na podstawie danych ściągniętych z internetu do excela (currency_data.xlsx) zaprojektowałem niewielką bazę danych w programie MySQL.
 Następnie postanowiłem wyciągnąć z danych odpowiednie informacje i konkretne rzeczy wykorzystując takie funkcje SQLa jak:
@@ -18,7 +18,7 @@ Kolejnym krokiem było stworzenie wizualizacji także w programie Tableau. Progr
 Wykresy w Tableau można obejrzeć tu:
 https://public.tableau.com/app/profile/artur.pater/viz/Waluty/Values?publish=yes
 
-# Currency-showcase ENG - description
+# Currency_showcase ENG - description
 With this project, I wanted to show that even with a such small dataset like one table, you can extract a lot of information from it.
 Based on the data downloaded from the internet and loaded into excel (currency_data.xlsx), I designed a small database in MySQL.
 Then I decided to extract relevant information and specific things from the data using such SQL functions as:
