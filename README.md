@@ -12,6 +12,9 @@ Wizualizacje są ze sobą połączone i korzystają między innymi z takich funk
 - przyciski, fragmentatory (slicery) oraz zakładki (bookmarki);
 - drillthrough do przechodzenia pomiędzy kolejnymi poziomami szczegółowości oraz drilldown do wchodzenia w głębsze szczegóły poszczególnych wykresów;
 - filtrowanie odpowiednich danych oraz umiejętność ich wizualizacji wraz z odpowiednią stylistyką.
+Kolejnym krokiem było stworzenie wizualizacji także w programie Tableau. Program ten proponuje inne rozwiązania i pozwala nieco inaczej zwizualizować pewne dane.
+Wykresy w Tableau można obejrzeć tu:
+https://public.tableau.com/app/profile/artur.pater/viz/Waluty/Values?publish=yes
 
 # Currency-showcase ENG - description
 With this project, I wanted to show that even with a such small dataset like one table, you can extract a lot of information from it.
@@ -27,3 +30,6 @@ The visualizations are connected and use such functions as:
 - buttons, slicers and bookmarks;
 - drillthrough (to move between levels of detail) and drilldown (to go into deeper details of individual charts);
 - filtering relevant data and the ability to visualize it with appropriate styling.
+Next step was creating visualisations also in Tableau. This program offers different solutions and allows you to visualize certain data in a slightly different way.
+The charts in Tableau can be viewed here:
+https://public.tableau.com/app/profile/artur.pater/viz/Waluty/Values?publish=yes
